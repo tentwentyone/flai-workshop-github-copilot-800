@@ -6,21 +6,30 @@
 ```mermaid
 %%{init: {'theme': 'neutral', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#fff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff3e0'}, 'flowchart': {'nodeSpacing': 50, 'rankSpacing': 80, 'padding': 40}}}%%
 flowchart LR
+    User((👤 User))
+    
     subgraph Codespaces [☁️ GitHub Codespaces]
         subgraph App [🏋️ OctoFit Tracker App]
+            Frontend[⚛️ React<br/>Frontend]
             Backend[🐍 Django<br/>Backend]
             Database[(🍃 MongoDB<br/>Database)]
         end
     end
     
+    User --> Frontend
+    Frontend <--> Backend
     Backend <--> Database
     
+    style User stroke-width:2px,fill:#e3f2fd40,color:#00000050,stroke:#1976d250,stroke-dasharray: 5 5
+    style Frontend stroke-width:2px,fill:#b3e5fc40,color:#00000050,stroke:#0288d150,stroke-dasharray: 5 5
     style Backend stroke-width:4px,fill:#c8e6c9,color:#000,stroke:#2e7d32
     style Database stroke-width:4px,fill:#ffe0b2,color:#000,stroke:#ef6c00
     style Codespaces stroke-width:3px
     style App stroke-width:3px,stroke:#ff6b35
     
-    linkStyle default stroke-width:3px
+    linkStyle 0 stroke-width:2px,stroke:#cccccc
+    linkStyle 1 stroke-width:2px,stroke:#cccccc
+    linkStyle 2 stroke-width:3px
 ```
 
 > **🎯 Current Focus:** In this step, we're setting up the **Django Backend** and **MongoDB Database**.

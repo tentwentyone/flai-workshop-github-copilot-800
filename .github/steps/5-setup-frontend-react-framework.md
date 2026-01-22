@@ -3,6 +3,37 @@
 > [!NOTE]
 > **Behind the scenes:** This exercise uses custom instruction files that help guide GitHub Copilot's responses. The instruction file `.github/instructions/octofit_tracker_react_frontend.instructions.md` contains React framework setup commands, Bootstrap integration, and frontend structure guidelines that Copilot references when generating code for this step.
 
+```mermaid
+%%{init: {'theme': 'neutral', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#fff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff3e0'}, 'flowchart': {'nodeSpacing': 50, 'rankSpacing': 80, 'padding': 40}}}%%
+flowchart LR
+    User((👤 User))
+    
+    subgraph Codespaces [☁️ GitHub Codespaces]
+        subgraph App [🏋️ OctoFit Tracker App]
+            Frontend[⚛️ React<br/>Frontend]
+            Backend[🐍 Django<br/>Backend]
+            Database[(🍃 MongoDB<br/>Database)]
+        end
+    end
+    
+    User --> Frontend
+    Frontend <--> Backend
+    Backend <--> Database
+    
+    style User stroke-width:4px,fill:#e3f2fd,color:#000,stroke:#1976d2
+    style Frontend stroke-width:4px,fill:#b3e5fc,color:#000,stroke:#0288d1
+    style Backend stroke-width:2px,fill:#c8e6c940,color:#00000050,stroke:#2e7d3250,stroke-dasharray: 5 5
+    style Database stroke-width:2px,fill:#ffe0b240,color:#00000050,stroke:#ef6c0050,stroke-dasharray: 5 5
+    style Codespaces stroke-width:3px
+    style App stroke-width:3px,stroke:#ff6b35
+    
+    linkStyle 0 stroke-width:3px
+    linkStyle 1 stroke-width:2px,stroke:#cccccc
+    linkStyle 2 stroke-width:2px,stroke:#cccccc
+```
+
+> **🎯 Current Focus:** In this step, we're setting up the **React Frontend** and connecting it to the user experience.
+
 In this step, we will accomplish the following:
 
 - Setup the octofit-tracker frontend React framework.
