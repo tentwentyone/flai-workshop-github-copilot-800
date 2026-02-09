@@ -11,7 +11,7 @@ Here's a recap of your accomplishments:
 - Used Copilot to generate commit messages and pull request summaries.
 - Learned how to request Copilot to review your code.
 
-### Available Custom Agents at NOS organization
+### 🤖 Custom Agents at NOS organization
 
 We have a collection of custom agents available in the [nosportugal/.github-private](https://github.com/nosportugal/.github-private) repository to help you even more.
 
