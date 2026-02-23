@@ -6,7 +6,6 @@
 </picture>
   <br/>
   <br/>
-  <a href="https://flai.gh.nos.pt/">https://flai.gh.nos.pt</a>
 </p>
 
 # Build applications with GitHub Copilot agent mode
@@ -25,7 +24,7 @@ In this exercise, we will prompt GitHub Copilot agent mode to create a complete 
 - **Who is this for**: Intermediate developers familiar with GitHub Copilot, basic GitHub, and basic web development
 - **What you'll learn**: We'll introduce GitHub Copilot agent mode and how to use it for application development.
 - **What you'll build**: You'll use GitHub Copilot agent mode to create a fitness application as the gym teacher of a high school.
-- **Prerequisites**: Skills Exercise: <a href="https://github.com/nosportugal/flai-workshop-github-copilot-100">Getting Started with GitHub Copilot</a>.
+- **Prerequisites**: Skills Exercise: Getting Started with GitHub Copilot.
 - **How long**: This course takes less than one hour to complete.
 
 ## Application Architecture
@@ -69,7 +68,7 @@ In this exercise, you will:
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=nosportugal&template_name=flai-workshop-github-copilot-800&owner=%40me&name=flai-workshop-github-copilot-800&description=Exercise:+Build+applications+with+GitHub+Copilot+agent+mode&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=tentwentyone&template_name=flai-workshop-github-copilot-800&owner=%40me&name=flai-workshop-github-copilot-800&description=Exercise:+Build+applications+with+GitHub+Copilot+agent+mode&visibility=public)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

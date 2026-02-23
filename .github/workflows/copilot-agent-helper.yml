@@ -16,7 +16,7 @@ permissions:
 jobs:
   copilot:
     uses: >-
-      nosportugal/github-actions/.github/workflows/copilot-agent-helper.yml@main
+      tentwentyone/github-actions/.github/workflows/copilot-agent-helper.yml@main
     with:
       auto_hide_previous_comments: true
       acknowledgment_reaction: "eyes"
