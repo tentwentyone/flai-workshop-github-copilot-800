@@ -4,8 +4,6 @@
     <source media="(prefers-color-scheme: light)" srcset="images/flai-logo-light.svg?v=2" />
     <img width="180" alt="flAI Logo" src="images/flai-logo-dark.svg?v=2" />
 </picture>
-  <br/>
-  <br/>
 </p>
 
 # Build applications with GitHub Copilot agent mode
@@ -24,7 +22,7 @@ In this exercise, we will prompt GitHub Copilot agent mode to create a complete 
 - **Who is this for**: Intermediate developers familiar with GitHub Copilot, basic GitHub, and basic web development
 - **What you'll learn**: We'll introduce GitHub Copilot agent mode and how to use it for application development.
 - **What you'll build**: You'll use GitHub Copilot agent mode to create a fitness application as the gym teacher of a high school.
-- **Prerequisites**: Skills Exercise: Getting Started with GitHub Copilot.
+- **Prerequisites**: Skills Exercise: <a href="https://github.com/tentwentyone/flai-workshop-github-copilot-100">Getting Started with GitHub Copilot</a>.
 - **How long**: This course takes less than one hour to complete.
 
 ## Application Architecture
